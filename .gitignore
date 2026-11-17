@@ -1,0 +1,10 @@
+# KiCad local history (nested git repo) and backups
+.history/
+*-backups/
+*.bak*
+_autosave-*
+
+# Per-user / temporary KiCad files
+*.kicad_prl
+*.lck
+fp-info-cache

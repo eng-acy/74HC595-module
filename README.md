@@ -5,7 +5,9 @@ An 8-bit SIPO (Serial-In, Parallel-Out) shift register board for learning how th
 Boards can be chained through 6-Pin JST-XH connectors.
 
 ![Isometric view](documentation/3D-view/render-iso.png)
+
 ![Top view](documentation/3D-view/render-top.png)
+
 ![Bottom view](documentation/3D-view/render-bottom.png)
 
 ## Features

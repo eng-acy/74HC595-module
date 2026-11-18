@@ -1,7 +1,7 @@
 # 74HC595 Module
 
 An 8-bit SIPO (Serial-In, Parallel-Out) shift register board for learning how the 74HC595 works.
-DATA IN, CLOCK, LATCH and CLEAR are entered by hand with push buttons, and the eight outputs are shown on LEDs.
+**DATA IN**, **CLOCK**, **LATCH** and **CLEAR** are entered by hand with push buttons, and the eight outputs are shown on LEDs.
 Boards can be chained through 6-Pin JST-XH connectors.
 
 ![Isometric view](documentation/3D-view/render-iso.png)

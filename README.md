@@ -9,7 +9,7 @@ Boards can be chained through 6-Pin JST-XH connectors.
 - 4 push buttons: **DATA IN**, **CLOCK**, **LATCH**, **CLEAR**, each with an indicator LED
 - 8 output LEDs (O1–O8) plus a 01×08 header for the outputs
 - USB-C 5V input (Power only) with a 0.5 A resettable PTC fuse and reverse-polarity clamp
-- Chain IN / OUT on 6-Pin JST-XH: **+5V**, **RCLK**, **SRCLK**, **SRCLR**, **SER_IN/Q8'**, **GND**
+- Chain IN / OUT on 6-Pin JST-XH: **+5V**, **RCLK**, **SRCLK**, **SRCLR**, **SER_IN/O8'**, **GND**
 
 ## Specifications
 | Specification | Description |
@@ -48,7 +48,7 @@ Boards can be chained through 6-Pin JST-XH connectors.
 - Check polarity on the diodes, LEDs and C2.
 
 ## How to use
-1. Plug in USB-C. The green power LED (D2) should light up.
+1. Plug in USB-C. The green power LED (D1) should light up.
 2. While holding **DATA IN** (1) or leaving it released (0), press **CLOCK** to shift the bit to the shift register. Repeat shifting bits as desired.
 3. Press **LATCH** to store the shifted bits to the output register (O1–O8).
 4. Press **CLEAR** to reset the shift register, then press **LATCH** to clear the output register.

@@ -4055,7 +4055,7 @@
 			)
 			(symbol "USB_C_Receptacle_PowerOnly_6P_Custom_1_1"
 				(pin bidirectional line
-					(at 7.62 -17.78 90)
+					(at 2.54 -17.78 90)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -4109,7 +4109,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2.54 -17.78 90)
+					(at 7.62 -17.78 90)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -7214,7 +7214,7 @@
 			)
 		)
 	)
-	(global_label "Q8'"
+	(global_label "O8'"
 		(shape input)
 		(at 220.98 53.34 0)
 		(fields_autoplaced yes)
@@ -7310,7 +7310,7 @@
 			)
 		)
 	)
-	(global_label "Q8'"
+	(global_label "O8'"
 		(shape output)
 		(at 156.21 63.5 0)
 		(fields_autoplaced yes)
@@ -7978,7 +7978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13c6ea9d-8d85-4874-969b-b37b475f116b")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 48.26 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8042,7 @@
 		(instances
 			(project "74HC595-module"
 				(path "/7c35d85d-6c18-4307-8aac-3de008117791"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9675,7 +9675,6 @@
 		(uuid "57a61fb9-4420-489b-89d5-d125381d6618")
 		(property "Reference" "D15"
 			(at 194.31 137.668 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9742,6 +9741,7 @@
 		)
 		(property "Label" "O7"
 			(at 194.31 137.668 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9778,7 +9778,7 @@
 		(dnp no)
 		(uuid "5801b935-ed3e-4922-a036-d06a7188cc88")
 		(property "Reference" "J1"
-			(at 39.37 29.972 0)
+			(at 39.37 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9833,7 +9833,7 @@
 			)
 		)
 		(property "Label" "USB-C"
-			(at 39.37 27.94 0)
+			(at 39.37 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9886,7 +9886,6 @@
 		(uuid "5f1c0669-342f-49c0-9f84-9504bb27a8c3")
 		(property "Reference" "D10"
 			(at 194.31 99.568 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9953,6 +9952,7 @@
 		)
 		(property "Label" "O2"
 			(at 194.31 99.568 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10451,7 +10451,6 @@
 		(uuid "71dbf564-afdd-4827-93b6-50e5235cff06")
 		(property "Reference" "D14"
 			(at 194.31 130.048 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10518,6 +10517,7 @@
 		)
 		(property "Label" "O6"
 			(at 194.31 130.048 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10646,7 +10646,6 @@
 		(uuid "7d8627a1-5fd4-4fba-88e1-0b29c412ac9a")
 		(property "Reference" "D11"
 			(at 194.31 107.188 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10713,6 +10712,7 @@
 		)
 		(property "Label" "O3"
 			(at 194.31 107.188 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10748,7 +10748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb900fe-84ea-481b-9fb2-c252e5be7cf4")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 54.356 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10824,7 +10824,7 @@
 		(instances
 			(project "74HC595-module"
 				(path "/7c35d85d-6c18-4307-8aac-3de008117791"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10946,7 +10946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83d143de-7f7e-4e78-8f28-3e4d85f27856")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 40.64 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +11010,7 @@
 		(instances
 			(project "74HC595-module"
 				(path "/7c35d85d-6c18-4307-8aac-3de008117791"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11647,7 +11647,6 @@
 		(uuid "98d7a430-7929-4d77-87f1-e6c97a2f66f4")
 		(property "Reference" "D13"
 			(at 194.31 122.428 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11714,6 +11713,7 @@
 		)
 		(property "Label" "O5"
 			(at 194.31 122.428 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12395,7 +12395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3868b0d-e007-4512-b353-45aa837b179d")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 64.77 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12481,7 +12481,7 @@
 		(instances
 			(project "74HC595-module"
 				(path "/7c35d85d-6c18-4307-8aac-3de008117791"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12817,7 +12817,6 @@
 		(uuid "cf95953f-eb12-4889-a8d4-5dae1d46ed49")
 		(property "Reference" "D12"
 			(at 194.31 114.808 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12884,6 +12883,7 @@
 		)
 		(property "Label" "O4"
 			(at 194.31 114.808 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12921,7 +12921,6 @@
 		(uuid "d96d4faf-e4fe-4659-8124-db215a7acf77")
 		(property "Reference" "D9"
 			(at 194.31 91.948 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12988,6 +12987,7 @@
 		)
 		(property "Label" "O1"
 			(at 194.31 91.948 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13025,7 +13025,6 @@
 		(uuid "e0bcc048-b5e2-44a7-a101-2b0088d8458f")
 		(property "Reference" "D16"
 			(at 194.31 145.288 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13092,6 +13091,7 @@
 		)
 		(property "Label" "O8"
 			(at 194.31 145.288 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

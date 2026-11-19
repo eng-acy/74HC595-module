@@ -2675,13 +2675,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3f126f3c-0c25-46ed-8999-c45282de2428")
-		(at 186.2 106.5)
+		(at 186.2 103.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 0 1.5 0)
 			(layer "F.SilkS")
-			(uuid "b6e5c92e-e674-4f2a-9179-81de09bc9141")
+			(uuid "94e8e03b-03a7-4c46-a342-849e285fe93f")
 			(effects
 				(font
 					(size 1 1)
@@ -2693,7 +2693,7 @@
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2503ed3e-3ebb-449e-926f-8afc214695a6")
+			(uuid "b5ba486c-b442-4b0e-818d-f0c7fcffe246")
 			(effects
 				(font
 					(size 1 1)
@@ -2705,7 +2705,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86a957a5-9c29-4096-a408-bf95ab76d5f5")
+			(uuid "2761b165-67f2-4b70-aeba-faf68bb8fea8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25c50c92-b63e-461b-9ced-4e1cab49d243")
+			(uuid "eee0e972-5c8d-45cf-b208-5a7e29edf656")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(J1-CC1)")
+			(net "Net-(J1-CC2)")
 			(pintype "passive")
 			(uuid "34dc0c02-d644-40a1-b2c2-a97f33bf654d")
 		)
@@ -5664,7 +5664,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Q8'")
+			(net "O8'")
 			(pinfunction "QH'_9")
 			(pintype "output")
 			(uuid "d4ab524b-c126-4fe7-8f31-cff2ef2f179f")
@@ -6636,7 +6636,7 @@
 		(at 184.7 99)
 		(descr "Diode SMA (DO-214AC) Handsoldering")
 		(tags "Diode SMA (DO-214AC) Handsoldering")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "de0908c8-6788-45c4-aea8-d5d0f92a6490")
@@ -8157,7 +8157,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(D2-A)")
+			(net "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "ebfdde5e-c75c-410b-9726-01de5ab950a4")
 		)
@@ -8369,10 +8369,10 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "89c80d33-7bec-4e48-8804-b2db1af29a0a")
-		(at 186.2 103.5)
+		(at 186.2 106.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "cc815c55-80c7-46a0-bd6d-8867b9b4f5d4")
@@ -8508,7 +8508,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(J1-CC2)")
+			(net "Net-(J1-CC1)")
 			(pintype "passive")
 			(uuid "17a42b20-a05f-42e7-89fe-85298fac19b8")
 		)
@@ -10501,7 +10501,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Q8'")
+			(net "O8'")
 			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "de8025c4-cd6f-47f0-89ee-ac59e21587d0")
@@ -11588,7 +11588,7 @@
 		(at 188.2 112.5 180)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED handsolder")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "a6c13fea-a55d-410a-a011-7f9d9f90123f")
@@ -11787,7 +11787,7 @@
 			(size 1.15 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
-			(net "Net-(D2-A)")
+			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "579ddf8c-5295-4905-a403-ca35ba1efaf3")
@@ -11880,7 +11880,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "SH" "A12" "B12" "B5" "A5" "A9" "B9")
+				(pins "SH" "A12" "B12" "A5" "B5" "A9" "B9")
 			)
 		)
 		(attr smd)
@@ -15892,20 +15892,8 @@
 		(layer "Edge.Cuts")
 		(uuid "121da710-0b79-47d8-b514-7463dd98a2c6")
 	)
-	(gr_text "8-BIT SHIFT REGISTER MODULE"
-		(at 148.5 77 0)
-		(layer "F.SilkS")
-		(uuid "a319c416-737a-4031-b7be-188c19d83505")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
-	(gr_text "74HC595 (SIPO)"
-		(at 148.5 79 0)
+	(gr_text "74HC595 MODULE"
+		(at 148.5 78 0)
 		(layer "F.SilkS")
 		(uuid "89e279c0-cd82-49f8-af2c-58f8133ef072")
 		(effects
@@ -18113,20 +18101,20 @@
 		(uuid "b8718c88-a9ba-486a-bde6-3eac09f3c90d")
 	)
 	(segment
-		(start 188.2 105.5)
-		(end 187.2 106.5)
+		(start 191.02 104.5)
+		(end 188.2 104.5)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "Net-(J1-CC1)")
-		(uuid "94067123-94fe-491c-b236-e32edddea07c")
+		(net "Net-(J1-CC2)")
+		(uuid "4de42318-50ec-40b2-8a82-b84a31beda65")
 	)
 	(segment
-		(start 191.02 105.5)
-		(end 188.2 105.5)
+		(start 188.2 104.5)
+		(end 187.2 103.5)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "Net-(J1-CC1)")
-		(uuid "c927ec1f-7558-46f4-8189-2d0d9e1f35a6")
+		(net "Net-(J1-CC2)")
+		(uuid "b8b5e37f-3c20-4081-ad37-9a0c93e528df")
 	)
 	(segment
 		(start 141.85 106.65)
@@ -18389,7 +18377,7 @@
 		(end 124.3 106.5)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "Q8'")
+		(net "O8'")
 		(uuid "7c01abe5-4bb4-4079-9e4f-08d02560fd30")
 	)
 	(segment
@@ -18397,7 +18385,7 @@
 		(end 110.75 108.75)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "Q8'")
+		(net "O8'")
 		(uuid "c9fbcd00-42e4-4ab3-b310-9c706e40506c")
 	)
 	(segment
@@ -18405,7 +18393,7 @@
 		(end 105.5 108.75)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "Q8'")
+		(net "O8'")
 		(uuid "cd0751f4-ea56-4847-8eb5-5f764159ef1e")
 	)
 	(segment
@@ -18413,7 +18401,7 @@
 		(end 113 106.5)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "Q8'")
+		(net "O8'")
 		(uuid "e184f895-9d66-401a-a731-0425b508443f")
 	)
 	(segment
@@ -18445,7 +18433,7 @@
 		(end 187.175 112.5)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "Net-(D2-A)")
+		(net "Net-(D1-A)")
 		(uuid "0b23694d-2004-4329-ab48-5acbbbd0c7c1")
 	)
 	(segment
@@ -18465,20 +18453,20 @@
 		(uuid "e4709b46-f80f-4188-b317-b997f4aa5d51")
 	)
 	(segment
-		(start 191.02 104.5)
-		(end 188.2 104.5)
+		(start 188.2 105.5)
+		(end 187.2 106.5)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "Net-(J1-CC2)")
-		(uuid "4de42318-50ec-40b2-8a82-b84a31beda65")
+		(net "Net-(J1-CC1)")
+		(uuid "94067123-94fe-491c-b236-e32edddea07c")
 	)
 	(segment
-		(start 188.2 104.5)
-		(end 187.2 103.5)
+		(start 191.02 105.5)
+		(end 188.2 105.5)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "Net-(J1-CC2)")
-		(uuid "b8b5e37f-3c20-4081-ad37-9a0c93e528df")
+		(net "Net-(J1-CC1)")
+		(uuid "c927ec1f-7558-46f4-8189-2d0d9e1f35a6")
 	)
 	(segment
 		(start 116.233333 83.735)

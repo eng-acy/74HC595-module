@@ -37,7 +37,7 @@ Boards can be chained through 6-Pin JST-XH connectors.
 | [`3dmodels/`](3dmodels/) | Custom 3D models used by the board (Banded resistors, USB-C, Resettable PTC fuse) |
 
 ## Ordering the PCB
-1. Zip the contents of [`gerbers/`](gerbers/) or download the Gerber zip from the [latest release](https://github.com/engadrianchristian-ctrl/74HC595-module/releases/latest).
+1. Zip the contents of [`gerbers/`](gerbers/) or download the Gerber zip from the [latest release](https://github.com/eng-acy/74HC595-module/releases/latest).
 2. Upload it to a PCB fab (e.g. JLCPCB or PCBWay).
 3. Options: 2 layers, 1.6 mm FR-4, HASL lead-free finish, any solder mask colour.
 

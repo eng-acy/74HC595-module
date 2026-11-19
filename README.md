@@ -20,11 +20,11 @@ Boards can be chained through 6-Pin JST-XH connectors.
 
 ## 3D View
 
-![Isometric view](documentation/3D-view/render-iso.png)
+![Isometric view](documentation/3D-renders/render-iso.png)
 
-![Top view](documentation/3D-view/render-top.png)
+![Top view](documentation/3D-renders/render-top.png)
 
-![Bottom view](documentation/3D-view/render-bottom.png)
+![Bottom view](documentation/3D-renders/render-bottom.png)
 
 ## Repository contents
 | Files / Folders | Description |
@@ -32,12 +32,12 @@ Boards can be chained through 6-Pin JST-XH connectors.
 | [`74HC595-module.kicad_pro`](74HC595-module.kicad_pro) | KiCad 10 project (open this to open the entire project) |
 | [`74HC595-module.kicad_sch`](74HC595-module.kicad_sch) | KiCad 10 schematic (open this to view only the schematic) |
 | [`74HC595-module.kicad_pcb`](74HC595-module.kicad_pcb) | KiCad 10 pcb (open this to view only the pcb) |
-| [`gerber/`](gerber/) | Gerber and drill files for manufacturing |
+| [`gerbers/`](gerbers/) | Gerber and drill files for manufacturing |
 | [`documentation/`](documentation/) | Schematic PDF, Board Layout PDF, BOM, 3D Renders and GLB Model |
 | [`3dmodels/`](3dmodels/) | Custom 3D models used by the board (Banded resistors, USB-C, Resettable PTC fuse) |
 
 ## Ordering the PCB
-1. Zip the contents of [`gerber/`](gerber/) or download the Gerber zip from the [latest release](https://github.com/engadrianchristian-ctrl/74HC595-module/releases/latest).
+1. Zip the contents of [`gerbers/`](gerbers/) or download the Gerber zip from the [latest release](https://github.com/engadrianchristian-ctrl/74HC595-module/releases/latest).
 2. Upload it to a PCB fab (e.g. JLCPCB or PCBWay).
 3. Options: 2 layers, 1.6 mm FR-4, HASL lead-free finish, any solder mask colour.
 

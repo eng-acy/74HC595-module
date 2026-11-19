@@ -80,4 +80,11 @@ The full legal code is available at:
 https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 ## Author
-**Adrian Christian Yap**, MFI Polytechnic Institute
+<p align="left">
+  <b>Adrian Christian Yap: </b>
+  <a href="https://www.linkedin.com/in/adrian-christian-yap-955712136/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge"></a>
+</p>
+<p align="left">
+  <b>MFI Polytechnic Institute: </b>
+  <a href="https://www.linkedin.com/school/mfi-polytechnic-institute-inc/posts/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge"></a>
+</p>

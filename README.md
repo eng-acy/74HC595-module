@@ -1,14 +1,8 @@
-# 74HC595 Module
+<h1 align="center">74HC595 Module</h1>
 
 An 8-bit SIPO (Serial-In, Parallel-Out) shift register board for learning how the 74HC595 works.
 **DATA IN**, **CLOCK**, **LATCH** and **CLEAR** are entered by hand with push buttons, and the eight outputs are shown on LEDs.
 Boards can be chained through 6-Pin JST-XH connectors.
-
-![Isometric view](documentation/3D-view/render-iso.png)
-
-![Top view](documentation/3D-view/render-top.png)
-
-![Bottom view](documentation/3D-view/render-bottom.png)
 
 ## Features
 - 74HC595 (optional DIP-16 socket)
@@ -23,7 +17,14 @@ Boards can be chained through 6-Pin JST-XH connectors.
 | Board size | 100×62 mm, 04×M3 mounting holes |
 | Layers | 2, GND pour on both sides |
 | Supply | 5 V via USB-C, about 90 mA max per board |
-<!-- | Min track / clearance | 0.2 mm / 0.2 mm | -->
+
+## 3D View
+
+![Isometric view](documentation/3D-view/render-iso.png)
+
+![Top view](documentation/3D-view/render-top.png)
+
+![Bottom view](documentation/3D-view/render-bottom.png)
 
 ## Repository contents
 | Files / Folders | Description |
@@ -36,9 +37,9 @@ Boards can be chained through 6-Pin JST-XH connectors.
 | [`3dmodels/`](3dmodels/) | Custom 3D models used by the board (Banded resistors, USB-C, Resettable PTC fuse) |
 
 ## Ordering the PCB
-1. Zip the contents of [`gerber/`](gerber/).
+1. Zip the contents of [`gerber/`](gerber/) or download the Gerber zip from the [latest release](https://github.com/engadrianchristian-ctrl/74HC595-module/releases/latest).
 2. Upload it to a PCB fab (e.g. JLCPCB or PCBWay).
-3. Options: 2 layers, 1.6 mm FR-4, **HASL lead-free** finish, any solder mask colour.
+3. Options: 2 layers, 1.6 mm FR-4, HASL lead-free finish, any solder mask colour.
 
 ## Assembly
 - Parts list: [`documentation/74HC595-module-BOM.csv`](documentation/74HC595-module-BOM.csv)
@@ -56,12 +57,27 @@ Boards can be chained through 6-Pin JST-XH connectors.
 KiCad 10.0
 
 ## License
-This project is licensed under the
-[Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
-See [`LICENSE`](LICENSE).
+This work, including the KiCad design files, Gerber and drill files,
+documentation, renders and 3D models in this repository, is licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+You are free to:
+  Share  - copy and redistribute the material in any medium or format
+  Adapt  - remix, transform, and build upon the material for any purpose,
+           even commercially.
+
+Under the following terms:
+  Attribution - You must give appropriate credit, provide a link to the
+                license, and indicate if changes were made.
+  ShareAlike  - If you remix, transform, or build upon the material, you must
+                distribute your contributions under the same license as the
+                original.
 
 You may share and adapt the design, including commercially, as long as you give credit
 and release your changes under the same license.
+
+The full legal code is available at:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 ## Author
 **Adrian Christian Yap**, MFI Polytechnic Institute
